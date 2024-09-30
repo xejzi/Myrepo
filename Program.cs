@@ -1,4 +1,4 @@
-﻿using System; 
+﻿using System; //улучшенный код.
 
 class Program
 {
