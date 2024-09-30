@@ -1,14 +1,14 @@
-using System; // Подключаем библиотеку для работы с вводом-выводом
+using System;
 
 class Program
 {
     static void Main()
     {
-        // Запрашиваем имя пользователя
+        // Ask for user's name
         Console.Write("Введите ваше имя: ");
-        string name = Console.ReadLine(); // Считываем имя пользователя
+        string name = Console.ReadLine(); // Reading user's name
         
-        // Выводим приветственное сообщение
+        // Print welcome message
         Console.WriteLine($"Hello world from {name}!");
     }
 }
